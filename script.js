@@ -36,7 +36,7 @@ function parseJson() {
   var usdValue = parseFloat(json["bpi"]["USD"]["rate"].replace(/,/g, ''));
   var usdthb = json2["rates"]["THB"];
   var usdchf = json2["rates"]["CHF"];
-  var thbchf = ((1 - usdchf) + 1) * usdthb;
+  var thbchf = ((1 - usdchf) + 1) * usdthb * 1.01395;
   var satusd = 1 / (usdValue / 100000000)
   var satchf = 1 / (usdValue  * usdchf / 100000000)
   var satthb = 1 / (usdValue  * usdthb / 100000000)
@@ -47,8 +47,6 @@ function parseJson() {
 
     "<br /><br /><b> Bitcoin USD Values</b>" +
     "<br />" + "1 BTC equals to USD: " + usdValue.toFixed(2) +
-    "<br />" + "0.1 BTC equals to USD: " + (usdValue / 10).toFixed(2) +
-    "<br />" + "1.554 BTC equals to USD: " + (usdValue * 1.554).toFixed(2) +
     "<br />" + "1 USD is in satoshis: " + satusd.toFixed(2) +
     "<br />" + "1 satoshi is in USD: " + (usdValue / 100000000).toFixed(6) +
 
