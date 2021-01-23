@@ -52,17 +52,13 @@ function parseJson() {
 
     "<br /><br /> <b>Bitcoin CHF Values</b>" +
     "<br />" + "1 BTC equals to CHF: " + (usdValue * usdchf).toFixed(2) +
-    "<br />" + "0.1 BTC equals to CHF: " + ((usdValue * usdchf / 10)).toFixed(2) +
-    "<br />" + "1.554 BTC equals to CHF: " + ((usdValue * usdchf * 1.554)).toFixed(2) +
     "<br />" + "1 CHF is in satoshis: " + satchf.toFixed(2) +
-    "<br />" + "1 satoshi is in CHF: " + (usdValue * usdchf / 100000000).toFixed(6) +
 
     "<br /><br /> <b>Bitcoin THB Values</b>" +
     "<br />" + "1 BTC equals to THB: " + (usdValue * usdthb).toFixed(2) +
     "<br />" + "0.1 BTC equals to THB: " + ((usdValue * usdthb / 10)).toFixed(2) +
     "<br />" + "1.554 BTC equals to THB: " + ((usdValue * usdthb * 1.554)).toFixed(2) +
     "<br />" + "1 THB is in satoshis: " + satthb.toFixed(2) +
-    "<br />" + "1 satoshi is in THB: " + (usdValue * usdthb / 100000000).toFixed(6) +
 
     "<br /><br /> <b>CHF THB conversion</b>" +
     "<br />" + "1 CHF equals to THB: " + (thbchf.toFixed(2)) +
