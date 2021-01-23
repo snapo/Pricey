@@ -1,0 +1,16 @@
+#data {
+  width: 400px;
+  border: 1px dashed black;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 10px;
+}
+#logo {
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: block;
+}
