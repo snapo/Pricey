@@ -57,7 +57,7 @@ function parseJson() {
     "<br /><br /> <b>Bitcoin THB Values</b>" +
     "<br />" + "1 BTC equals to THB: " + (usdValue * usdthb).toFixed(2) +
     "<br />" + "0.1 BTC equals to THB: " + ((usdValue * usdthb / 10)).toFixed(2) +
-    "<br />" + "1.554 BTC equals to THB: " + ((usdValue * usdthb * 1.554)).toFixed(2) +
+    "<br />" + "1.554 BTC equals to: " + ((usdValue * usdthb * 1.554 / 1000000)).toFixed(3) + " Million Baht" +
     "<br />" + "1 THB is in satoshis: " + satthb.toFixed(2) +
 
     "<br /><br /> <b>CHF THB conversion</b>" +
